@@ -16,6 +16,7 @@ public class SpringBootDockerApplication {
 	@GetMapping("/isalive")
 	public String isAlive() {
 		System.out.println("isAlive");
+		System.out.println("test message");
 		return "application is alive";
 	}
 	
